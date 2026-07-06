@@ -31,13 +31,13 @@ Once the core infrastructure was talking, I went into Group Policy Management an
 ### 1. Forcing the Firewall via GPO
 Here is the Group Policy configuration ensuring endpoints cannot be exposed to unauthorized traffic by a rogue user or standard malware.
 
-*(Insert your Firewall GPO screenshot here)*
+https://keep.google.com/u/0/media/v2/15If82ofNMhNZoxfjDPqo1OGjWv-6xp1uJ42jUYjiE3C2MHYcDChBHRsNH0lUEA/1mYFUSiex8eQq7RI_PQe1JbCOpDs23FIDyBdGZ5ehsPYY6LGLU2JogXOUiysylKI?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp
 ![Windows Defender Firewall GPO Configuration](./images/firewall-gpo.png)
 
 ### 2. Validating the Lockout Policy
 Security policies don't matter if they don't actually work. I intentionally spammed bad passwords against a dummy user account. As you can see in the Event Viewer, the Active Directory domain successfully caught it and logged **Event ID 4740 (A user account was locked out)**.
 
-*(Insert your Event Viewer screenshot here)*
+
 ![Event Viewer - Event ID 4740 Account Lockout](./images/event-id-4740.png)
 
 ## 🧠 Lessons Learned & Takeaways
