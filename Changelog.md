@@ -7,4 +7,4 @@ All notable changes to this infrastructure deployment framework will be document
 *   Initial release of enterprise deployment framework.
 *   Created `scripts.md` featuring standard and domain controller renaming templates.
 *   Mapped network inventory table and topology tracking inside `topology.md`.
-*   Established standard GPO export instructions in `gpo-reports.md`.
+
