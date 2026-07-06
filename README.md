@@ -30,15 +30,14 @@ Once the core infrastructure was talking, I went into Group Policy Management an
 
 ### 1. Forcing the Firewall via GPO
 Here is the Group Policy configuration ensuring endpoints cannot be exposed to unauthorized traffic by a rogue user or standard malware.
+
 <img width="512" height="380" alt="unnamed (1)" src="https://github.com/user-attachments/assets/5013ca6f-08a7-40fd-b7b5-ffe87edd591a" />
 
-![Windows Defender Firewall GPO Configuration](./images/firewall-gpo.png)
 
 ### 2. Validating the Lockout Policy
 Security policies don't matter if they don't actually work. I intentionally spammed bad passwords against a dummy user account. As you can see in the Event Viewer, the Active Directory domain successfully caught it and logged **Event ID 4740 (A user account was locked out)**.
 
 <img width="512" height="363" alt="unnamed" src="https://github.com/user-attachments/assets/8bea2671-2011-49c3-bb6e-3615f3f2a87f" />
-![Event Viewer - Event ID 4740 Account Lockout](./images/event-id-4740.png)
 
 ## 🧠 Lessons Learned & Takeaways
 This project was incredibly fun, but homelabbing always comes with a "troubleshooting tax." Getting the DNS settings perfectly aligned so the workstation could actually find and join the `corp.local` domain was a great learning experience in networking fundamentals. 
