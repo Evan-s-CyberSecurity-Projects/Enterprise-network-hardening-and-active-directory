@@ -5,6 +5,12 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
 
+## Project Directory
+To maximize readability and keep documentation clean, this repository is architected modularly:
+* **[Network Topology & Architecture](Topology.md)** — Explores the visual layout and core network configuration of the sandbox.
+* **[Automation Scripts](Scripts.md)** — Houses production-ready PowerShell automation used to securely provision domain objects.
+* **[Project Changelog](Changelog.md)** — A step-by-step audit trail of the lab deployment phase.
+
 ## Welcome to my project.
 I built this Active Directory homelab from the ground up to get hands-on experience with enterprise infrastructure and identity access management (IAM). My main goal wasn't just to set up a network, but to actively defend it. 
 
