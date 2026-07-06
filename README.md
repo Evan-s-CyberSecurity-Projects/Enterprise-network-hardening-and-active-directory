@@ -27,11 +27,12 @@ Once the core infrastructure was talking, I went into Group Policy Management an
 * **LAPS Deployment:** Deployed Microsoft Local Administrator Password Solution (LAPS) to randomize the local admin passwords on endpoints, effectively neutralizing Pass-the-Hash (PtH) and lateral movement tactics.
 
 ## Action Shots & Proof of Concept
+<img width="512" height="363" alt="unnamed" src="https://github.com/user-attachments/assets/8bea2671-2011-49c3-bb6e-3615f3f2a87f" />
 
 ### 1. Forcing the Firewall via GPO
 Here is the Group Policy configuration ensuring endpoints cannot be exposed to unauthorized traffic by a rogue user or standard malware.
 
-https://keep.google.com/u/0/media/v2/15If82ofNMhNZoxfjDPqo1OGjWv-6xp1uJ42jUYjiE3C2MHYcDChBHRsNH0lUEA/1mYFUSiex8eQq7RI_PQe1JbCOpDs23FIDyBdGZ5ehsPYY6LGLU2JogXOUiysylKI?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp
+
 ![Windows Defender Firewall GPO Configuration](./images/firewall-gpo.png)
 
 ### 2. Validating the Lockout Policy
