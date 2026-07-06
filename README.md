@@ -39,7 +39,7 @@ Security policies don't matter if they don't actually work. I intentionally spam
 
 <img width="512" height="363" alt="unnamed" src="https://github.com/user-attachments/assets/8bea2671-2011-49c3-bb6e-3615f3f2a87f" />
 
-## 🧠 Lessons Learned & Takeaways
+## Lessons Learned & Takeaways
 This project was incredibly fun, but homelabbing always comes with a "troubleshooting tax." Getting the DNS settings perfectly aligned so the workstation could actually find and join the `corp.local` domain was a great learning experience in networking fundamentals. 
 
 Ultimately, this lab reinforced the concept of **Defense in Depth**. It showed me firsthand how native Windows tools, when configured correctly, can drastically shrink an organization's attack surface before you even need to buy expensive third-party security software.
